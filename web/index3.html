@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WasteNot - Recycled Accessories</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <style>
+        .recycled-bg {
+            background-image: url('http://static.photos/abstract/1200x630/1');
+            background-size: cover;
+            background-position: center;
+        }
+        .texture-overlay {
+            background-image: url('http://static.photos/textures/1200x630/2');
+            background-blend-mode: overlay;
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Hero Section -->
+    <section class="recycled-bg min-h-screen flex items-center justify-center px-4">
+        <div class="texture-overlay bg-white bg-opacity-90 p-12 rounded-lg max-w-4xl text-center">
+            <img src="http://static.photos/minimal/200x200/3" alt="WasteNot Logo" class="mx-auto h-24 mb-6">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Give Waste New Life</h1>
+            <p class="text-xl text-gray-600 mb-8">Premium accessories crafted from recycled materials</p>
+            <button class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-full transition duration-300">
+                Shop Now
+            </button>
+        </div>
+    </section>
+
+    <!-- Product Categories -->
+    <section class="py-20 px-4 max-w-7xl mx-auto">
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Our Collections</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <!-- Category Cards -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+                <div class="h-48 bg-cover bg-center" style="background-image: url('http://static.photos/textures/640x360/4')"></div>
+                <div class="p-4">
+                    <h3 class="font-semibold text-lg mb-2">Hats</h3>
+                    <a href="#" class="text-green-600 hover:underline">Explore</a>
+                </div>
+            </div>
+            <!-- Repeat for other categories -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+                <div class="h-48 bg-cover bg-center" style="background-image: url('http://static.photos/textures/640x360/5')"></div>
+                <div class="p-4">
+                    <h3 class="font-semibold text-lg mb-2">PVC Velcro Patches</h3>
+                    <a href="#" class="text-green-600 hover:underline">Explore</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+                <div class="h-48 bg-cover bg-center" style="background-image: url('http://static.photos/textures/640x360/6')"></div>
+                <div class="p-4">
+                    <h3 class="font-semibold text-lg mb-2">Jibbitz</h3>
+                    <a href="#" class="text-green-600 hover:underline">Explore</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+                <div class="h-48 bg-cover bg-center" style="background-image: url('http://static.photos/textures/640x360/7')"></div>
+                <div class="p-4">
+                    <h3 class="font-semibold text-lg mb-2">Charms</h3>
+                    <a href="#" class="text-green-600 hover:underline">Explore</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How We Make Them -->
+    <section class="py-20 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">From Waste to Wear</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <div class="h-40 mb-4 bg-cover bg-center" style="background-image: url('http://static.photos/textures/640x360/8')"></div>
+                    <h3 class="font-semibold text-xl mb-2">1. Material Collection</h3>
+                    <p class="text-gray-600">Sourcing high-quality recycled PVC, rubber and plastics</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <div class="h-40 mb-4 bg-cover bg-center" style="background-image: url('http://static.photos/textures/640x360/9')"></div>
+                    <h3 class="font-semibold text-xl mb-2">2. Processing</h3>
+                    <p class="text-gray-600">Cleaning and transforming materials into usable forms</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <div class="h-40 mb-4 bg-cover bg-center" style="background-image: url('http://static.photos/textures/640x360/10')"></div>
+                    <h3 class="font-semibold text-xl mb-2">3. Crafting</h3>
+                    <p class="text-gray-600">Handmade into unique, functional accessories</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="py-20 px-4 max-w-7xl mx-auto">
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Featured Collection</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                <div class="h-64 bg-cover bg-center" style="background-image: url('http://static.photos/textures/640x360/11')"></div>
+                <div class="p-6">
+                    <h3 class="font-bold text-xl mb-2">Recycled PVC Bracelet</h3>
+                    <p class="text-gray-600 mb-4">Colorful fragments suspended in translucent material</p>
+                    <button class="w-full bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded transition duration-300">
+                        Add to Cart - $24.99
+                    </button>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                <div class="h-64 bg-cover bg-center" style="background-image: url('http://static.photos/textures/640x360/12')"></div>
+                <div class="p-6">
+                    <h3 class="font-bold text-xl mb-2">Upcycled Keychain</h3>
+                    <p class="text-gray-600 mb-4">Made from repurposed rubber with unique patterns</p>
+                    <button class="w-full bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded transition duration-300">
+                        Add to Cart - $14.99
+                    </button>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                <div class="h-64 bg-cover bg-center" style="background-image: url('http://static.photos/textures/640x360/13')"></div>
+                <div class="p-6">
+                    <h3 class="font-bold text-xl mb-2">Recycled Shoelace Tips</h3>
+                    <p class="text-gray-600 mb-4">Durable plastic with embedded recycled fragments</p>
+                    <button class="w-full bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded transition duration-300">
+                        Add to Cart - $9.99
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brand Values -->
+    <section class="py-20 bg-gray-800 text-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Our Values</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="h-16 mb-4 flex justify-center">
+                        <i data-feather="repeat" class="text-green-400"></i>
+                    </div>
+                    <h3 class="font-semibold text-xl mb-2">Visibly Recycled</h3>
+                    <p class="text-gray-300">We celebrate the imperfections that make each piece unique</p>
+                </div>
+                <div class="text-center">
+                    <div class="h-16 mb-4 flex justify-center">
+                        <i data-feather="star" class="text-green-400"></i>
+                    </div>
+                    <h3 class="font-semibold text-xl mb-2">Unique Pieces</h3>
+                    <p class="text-gray-300">No two items are exactly alike due to the nature of our materials</p>
+                </div>
+                <div class="text-center">
+                    <div class="h-16 mb-4 flex justify-center">
+                        <i data-feather="feather" class="text-green-400"></i>
+                    </div>
+                    <h3 class="font-semibold text-xl mb-2">Creative Design</h3>
+                    <p class="text-gray-300">Innovative solutions that blend sustainability with style</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <img src="http://static.photos/minimal/200x200/3" alt="WasteNot Logo" class="h-16">
+                </div>
+                <div class="flex space-x-6 mb-6 md:mb-0">
+                    <a href="#" class="hover:text-green-400"><i data-feather="instagram"></i></a>
+                    <a href="#" class="hover:text-green-400"><i data-feather="facebook"></i></a>
+                    <a href="#" class="hover:text-green-400"><i data-feather="twitter"></i></a>
+                </div>
+                <div class="text-sm text-gray-400">
+                    <p>© 2023 WasteNot. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init();
+        feather.replace();
+    </script>
+</body>
+</html>
